@@ -1,4 +1,5 @@
 
+import { BoxActivity } from "../components/BoxActivity/BoxActivity";
 import SmallBox from "../components/SmallBox/SmallBox";
 import SmallBoxThree from "../components/SmallBoxThree/SmallBoxThree";
 import SmallBoxTwo from "../components/SmallBoxTwo/SmallBoxTwo";
@@ -24,7 +25,7 @@ const Home = () => {
         <div className="box box1"><SmallBox/></div>
         <div className="box box2"><SmallBoxTwo/></div>
         <div className="box box3"><SmallBoxThree/></div>
-        <div className="box box4">box4</div>
+        <div className="box box4"><BoxActivity/></div>
         <div className="box box5">box5</div>
         <div className="box box6">box6</div>
         <div className="box box7">box7</div>
