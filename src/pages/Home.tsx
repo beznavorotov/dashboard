@@ -3,6 +3,7 @@ import { BoxActivity } from "../components/BoxActivity/BoxActivity";
 import SmallBox from "../components/SmallBox/SmallBox";
 import SmallBoxThree from "../components/SmallBoxThree/SmallBoxThree";
 import SmallBoxTwo from "../components/SmallBoxTwo/SmallBoxTwo";
+import { Graph } from "../components/graph/Graph";
 import "./home.scss";
 
 const Home = () => {
@@ -26,8 +27,8 @@ const Home = () => {
         <div className="box box2"><SmallBoxTwo/></div>
         <div className="box box3"><SmallBoxThree/></div>
         <div className="box box4"><BoxActivity/></div>
-        <div className="box box5">box5</div>
-        <div className="box box6">box6</div>
+        <div className="box box5"><Graph/></div>
+        <div className="box box6"><Graph/></div>
         <div className="box box7">box7</div>
         <div className="box box8">box8</div>
       </div>

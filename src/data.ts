@@ -97,3 +97,63 @@ export const boxTwo = [
       title: "4 Departament",
     },
   ];
+
+
+  export const activity = [
+      {
+        id:1,
+        title: "Recently Activity",
+        date: "10.40 AM, Fri 10 Sept 2021",
+        content: "You Posted a New Job",
+        text: "Kindly check the requirements and terms of work and make sure everything is rightю",
+        textEnd: "Today you makes 12 Activity",
+      },
+
+  ];
+
+
+
+  export const data = [
+    {
+      name: 'Page A',
+      uv: 4000,
+      pv: 2400,
+      amt: 2400,
+    },
+    {
+      name: 'Page B',
+      uv: 3000,
+      pv: 1398,
+      amt: 2210,
+    },
+    {
+      name: 'Page C',
+      uv: 2000,
+      pv: 9800,
+      amt: 2290,
+    },
+    {
+      name: 'Page D',
+      uv: 2780,
+      pv: 3908,
+      amt: 2000,
+    },
+    {
+      name: 'Page E',
+      uv: 1890,
+      pv: 4800,
+      amt: 2181,
+    },
+    {
+      name: 'Page F',
+      uv: 2390,
+      pv: 3800,
+      amt: 2500,
+    },
+    {
+      name: 'Page G',
+      uv: 3490,
+      pv: 4300,
+      amt: 2100,
+    },
+  ];
