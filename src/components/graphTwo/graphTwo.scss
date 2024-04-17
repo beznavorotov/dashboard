@@ -1,0 +1,59 @@
+@import "../../style/variables.scss";
+
+.graphTwo {
+  display: flex;
+  height: 100%;
+  .data {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .title {
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .number {
+      font-weight: 500;
+      font-size: 48px;
+    }
+    .men {
+      font-weight: 400;
+      font-size: 12px;
+      color: $ligtGray;
+    }
+    .women {
+      font-weight: 400;
+      font-size: 12px;
+      color: $ligtGray;
+    }
+  }
+  .diagram {
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .charts {
+        height: 100%;
+        width: 100%;
+ 
+    }
+    .text {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      border: 1px;
+      border-radius: 5px;
+      background-color: #ffefe7;
+      padding: 5px;
+      .interest {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #303030;
+      }
+    }
+  }
+}

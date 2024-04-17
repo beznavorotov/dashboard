@@ -1,6 +1,6 @@
 @import "../../style/variables.scss";
 
-.graph {
+.graphOne {
   display: flex;
   height: 100%;
   .data {
@@ -45,7 +45,9 @@
       align-items: center;
       text-align: center;
       border: 1px;
+      border-radius: 5px;
       background-color: #ffefe7;
+      padding: 5px;
       .interest {
         font-weight: 400;
         font-size: 12px;

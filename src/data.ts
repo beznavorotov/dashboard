@@ -69,12 +69,8 @@ export const menu = [
   },
 ];
 
-
-
-
 export const box = [
   {
-
     name: "Available Position",
     number: "24",
     title: "4 Urgently needed",
@@ -82,78 +78,128 @@ export const box = [
 ];
 
 export const boxTwo = [
-    {
+  {
+    name: "Job Open",
+    number: "10",
+    title: "4 Active hirind",
+  },
+];
+export const boxThree = [
+  {
+    name: "New Employees",
+    number: "24",
+    title: "4 Departament",
+  },
+];
 
-      name: "Job Open",
-      number: "10",
-      title: "4 Active hirind",
-    },
-  ];
-  export const boxThree = [
-    {
+export const activity = [
+  {
+    id: 1,
+    title: "Recently Activity",
+    date: "10.40 AM, Fri 10 Sept 2021",
+    content: "You Posted a New Job",
+    text: "Kindly check the requirements and terms of work and make sure everything is right.",
+    textEnd: "Today you makes 12 Activity",
+  },
+];
 
-      name: "New Employees",
-      number: "24",
-      title: "4 Departament",
-    },
-  ];
+export const graphOne = [
+  {
+    id: 1,
+    title: "Total Employees",
+    number: "216",
+    men: "120",
+    women: "96",
+    interest: "+2%",
+  },
+];
 
+export const graphTwo = [
+  {
+    id: 1,
+    title: "Talent Request",
+    number: "16",
+    men: "6",
+    women: "10",
+    interest: "+5%",
+  },
+];
 
-  export const activity = [
+export const announcement = [
+  {
+    id: 1,
+    listItem: [
       {
-        id:1,
-        title: "Recently Activity",
-        date: "10.40 AM, Fri 10 Sept 2021",
-        content: "You Posted a New Job",
-        text: "Kindly check the requirements and terms of work and make sure everything is rightю",
-        textEnd: "Today you makes 12 Activity",
+        id: 1,
+        title: "Outing schedule for every departement",
+        text: "5 Minutes ago",
       },
+    ],
+  },
+  {
+    id: 2,
+    listItem: [
+      {
+        id: 1,
+        title: "Meeting HR Department",
+        text: "Yesterday, 12:30 PM",
+      },
+    ],
+  },
+  {
+    id: 3,
+    listItem: [
+      {
+        id: 1,
+        title:
+          "IT Department need two more talents for UX/UI Designer position",
+        text: "Yesterday, 09:15 AM",
+      },
+    ],
+  },
+];
 
-  ];
-
-
-
-  export const data = [
-    {
-      name: 'Page A',
-      uv: 4000,
-      pv: 2400,
-      amt: 2400,
-    },
-    {
-      name: 'Page B',
-      uv: 3000,
-      pv: 1398,
-      amt: 2210,
-    },
-    {
-      name: 'Page C',
-      uv: 2000,
-      pv: 9800,
-      amt: 2290,
-    },
-    {
-      name: 'Page D',
-      uv: 2780,
-      pv: 3908,
-      amt: 2000,
-    },
-    {
-      name: 'Page E',
-      uv: 1890,
-      pv: 4800,
-      amt: 2181,
-    },
-    {
-      name: 'Page F',
-      uv: 2390,
-      pv: 3800,
-      amt: 2500,
-    },
-    {
-      name: 'Page G',
-      uv: 3490,
-      pv: 4300,
-      amt: 2100,
-    },
-  ];
+export const upcoming = [
+  {
+    id: 1,
+    title: "Priority",
+    listItem: [
+      {
+        id: 1,
+        title: "Review candidate applications",
+        text: "Today - 11.30 AM",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Other",
+    listItem: [
+      {
+        id: 1,
+        title: "Interview with candidates",
+        text: "Today - 10.30 AM",
+      },
+    ],
+  },
+  {
+    id: 3,
+    listItem: [
+      {
+        id: 1,
+        title: "Short meeting with product designer from IT Departement",
+        text: "Today - 09.15 AM",
+      },
+    ],
+  },
+  {
+    id: 4,
+    listItem: [
+      {
+        id: 1,
+        title: "Sort Front-end developer candidates",
+        text: "Yesterday - 09.15 AM",
+      },
+    ],
+  },
+];
